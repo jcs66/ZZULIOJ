@@ -22,8 +22,8 @@ int return_maxdigit(int n) {
 int main()
 {
     int n;
-    scanf("%d",&n);
+    cin>>n;
     int maxdigit = return_maxdigit(n);
-    printf("%d\n",maxdigit);
+    cout<<maxdigit<<endl;
     return 0;
 }
